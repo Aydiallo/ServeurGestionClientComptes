@@ -15,8 +15,8 @@ public class ClientMockService implements ICRUDService<Client, Long> {
 	public ClientMockService() {
 		super();
 		clients = new ArrayList<Client>();
-		clients.add(new Client(1,"Diallo","Alpha yankhouba","771542523"));
-		clients.add(new Client(2,"Diallo","yankhouba","771542523"));
+		clients.add(new Client(1,"Dillo","Alpha yankhouba","771542523"));
+		clients.add(new Client(2,"Dillo","yankhouba","771542523"));
 		clients.add(new Client(3,"Diallo","Alpha","771542523"));
 		// TODO Auto-generated constructor stub
 	}
